@@ -1,0 +1,25 @@
+body{
+    color: white;
+    background-color: black;
+}
+.title.big {
+    font-size: 50px;
+}
+body {
+    font-size: 30px;
+}
+dt::before{
+content: "・";
+}
+input:not(:last-of-type) {
+    font-size: 40px;
+}
+option {
+    font-size: 40px;
+}
+strong:hover {
+    background-color: red;
+}
+input:last-of-type {
+    font-size: 20px;
+}
